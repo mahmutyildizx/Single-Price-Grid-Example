@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    
+}
+
+span {
+    font-size: 48px;
+    margin-right: 10px;
+}
+button {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: hsl(71, 73%, 54%);
+	border: none;
+	box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(50%);
+    margin: 0 auto;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.firstBox {
+    background-color: #fff;
+    min-height: 250px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 5px;
+    
+}
+.firstBox h2 {
+    color: hsl(179, 62%, 43%);
+    letter-spacing: 1px;
+    
+}
+.firstBox h3 {
+    color: hsl(71, 73%, 54%);
+    padding-top: 20px;
+    font-weight: 700;
+}
+.firstBox p {
+    color: hsl(218, 22%, 67%);
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.secondBox {
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+    min-height: 300px;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 0px 0px 0px 5px;
+    width: 50%;
+  
+}
+.secondBox h2 {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.secondBox p {
+    padding-top: 15px;
+    color: hsl(204, 43%, 93%);
+}
+.secondBox-Paragraph {
+    font-size: 18px;
+    letter-spacing: 1.1;
+    font-weight: 200;
+    color: hsl(204, 43%, 93%);
+}
+
+.thirdBox {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    opacity: 0.7;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 0px 0px 5px 0px;
+    color: #fff;
+    min-height: 300px;
+}
+.thirdBox h2 {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.thirdBox ul {
+    padding-top: 20px;
+   color: hsl(204, 43%, 93%);
+}
+.thirdBox ul li {
+    list-style-type: none;
+    padding-top: 3px;
+    
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        transform: translateY(0px);
+    }
+    .firstBox {
+        padding: 30px 20px;
+        line-height: 1.7;
+        margin: auto;
+    }
+    .secondBox {
+        width: 100%;
+    }
+    .thirdBox {
+        width: 100%;
+    }
+    button {
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+}
