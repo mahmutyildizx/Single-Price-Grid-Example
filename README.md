@@ -1,5 +1,7 @@
 # Frontend Mentor - Single Price Grid Component
 
+Please visit  https://mahmuttyildiz.github.io/Single-Price-Grid-Example/ for review
+
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
