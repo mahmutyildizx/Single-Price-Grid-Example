@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 * {
@@ -32,17 +39,17 @@ button {
 }
 
 .container {
-    max-width: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-transform: translateY(50%);
-        -ms-transform: translateY(50%);
-            transform: translateY(50%);
-    margin: 0 auto;
-    -webkit-box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+            max-width: 800px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-transform: translateY(20%);
+                -ms-transform: translateY(20%);
+                    transform: translateY(20%);
+            margin: 0 auto;
+            -webkit-box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
             box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
