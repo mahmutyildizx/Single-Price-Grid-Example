@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +23,8 @@ button {
     margin-top: 15px;
     background-color: hsl(71, 73%, 54%);
 	border: none;
-	box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+	        box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
     color: #fff;
     font-size: 18px;
     font-weight: 400;
@@ -31,11 +33,17 @@ button {
 
 .container {
     max-width: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    transform: translateY(50%);
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
     margin: 0 auto;
-    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 .firstBox {
@@ -116,8 +124,13 @@ button {
 
 @media screen and (max-width: 576px) {
     .container {
-        flex-direction: column;
-        transform: translateY(0px);
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+                transform: translateY(0px);
     }
     .firstBox {
         padding: 30px 20px;
